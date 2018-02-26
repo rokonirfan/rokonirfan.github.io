@@ -1,0 +1,126 @@
+/* VARIABLES */
+/* FOR XS DEVICE */
+@media (min-width: 320px) and (max-width: 575px) {
+  header .header-top .container {
+    padding: 0;
+    margin: 0; }
+    header .header-top .container .header-top-left {
+      text-align: center; }
+    header .header-top .container .header-top-right ul li {
+      float: left; }
+      header .header-top .container .header-top-right ul li a i {
+        padding-right: 5px;
+        padding-left: 10px; }
+      header .header-top .container .header-top-right ul li:nth-child(1) a {
+        padding-right: 20px;
+        border-right: 0px solid #ddd; }
+      header .header-top .container .header-top-right ul li:nth-child(2) a {
+        padding-left: 0px; }
+  header nav.navbar {
+    padding: 20px 0;
+    margin: 0; }
+    header nav.navbar .container .navbar-brand {
+      padding: 0;
+      margin: 0;
+      padding-left: 15px; }
+    header nav.navbar .container .navbar-toggler {
+      color: #333; }
+    header nav.navbar .container .navbar-toggler:focus {
+      border: 0;
+      outline: 0; }
+    header nav.navbar .container .collapse {
+      padding: 10px 0;
+      margin: 10px 0 0 0;
+      border-top: 1px solid #ddd; }
+      header nav.navbar .container .collapse .navbar-nav {
+        margin: 0;
+        padding: 0; }
+        header nav.navbar .container .collapse .navbar-nav .nav-item {
+          margin: 0;
+          padding: 0; }
+          header nav.navbar .container .collapse .navbar-nav .nav-item .nav-link {
+            padding: 0 15px; }
+          header nav.navbar .container .collapse .navbar-nav .nav-item .nav-link-active {
+            border-left: 2px solid #29c2e1; }
+
+  /* HEADER ENDS */
+  #banner .container-fluid #myBanner .banner-slide {
+    position: relative;
+    height: 100vh; }
+    #banner .container-fluid #myBanner .banner-slide img {
+      width: 100%; }
+    #banner .container-fluid #myBanner .banner-slide .bnr-text {
+      width: 100%;
+      top: 50%;
+      left: 50%; }
+      #banner .container-fluid #myBanner .banner-slide .bnr-text h1 {
+        font-size: 2rem;
+        padding: 0 0 10px; }
+
+  /* BANNER ENDS */
+  #startup {
+    padding: 80px 0 0; }
+    #startup .container .startup-text p.para-details {
+      padding-bottom: 60px; }
+    #startup .container .startup-text .startup-img img {
+      width: 100%; }
+    #startup .container .startup-item-wrapper {
+      padding: 30px 0; }
+      #startup .container .startup-item-wrapper .startup-item .startup-item-img {
+        padding-left: 15px;
+        padding-right: 15px; }
+      #startup .container .startup-item-wrapper .startup-item .startup-item-text a.btn-primary-c {
+        margin-left: 0px; }
+
+  /* STARTUP ENDS */
+  #clients {
+    padding: 70px 0; }
+
+  #features .container {
+    padding: 70px 0; }
+    #features .container h2.section-title, #features .container p.section-subtitle {
+      padding-left: 15px; }
+    #features .container .features-item .features-item-img {
+      padding-right: 15px;
+      padding-left: 15px; }
+    #features .container .btn-primary-c {
+      margin-bottom: 20px; }
+    #features .container .shape {
+      z-index: -5; }
+
+  /* FEATURES ENDS */
+  /* PRICING STARTS */
+  #pricing .container {
+    padding: 70px 0; }
+    #pricing .container h2.section-title, #pricing .container p.section-subtitle {
+      padding-left: 15px; }
+    #pricing .container .pricing-item {
+      margin-bottom: 20px; }
+      #pricing .container .pricing-item ul {
+        padding: 28px 0; }
+
+  /* PRICING ENDS */
+  /* TEAM STARTS */
+  #team {
+    padding: 70px 0; }
+    #team .container .team-item {
+      margin-bottom: 20px; }
+      #team .container .team-item .team-item-img img {
+        width: 100%; }
+      #team .container .team-item ul li {
+        display: inline-block; }
+
+  /* TEAM ENDS */
+  /* FREE SERVICE STARTS */
+  #freeService .container {
+    padding: 70px 0; }
+    #freeService .container .free-service h2 span {
+      color: #f7941d; }
+    #freeService .container .free-service p {
+      line-height: 24px; }
+    #freeService .container .free-service .btn-primary-c {
+      margin-right: 0px; }
+
+  /* FREE SERVICE ENDS */ }
+
+/*# sourceMappingURL=responsive.css.map */

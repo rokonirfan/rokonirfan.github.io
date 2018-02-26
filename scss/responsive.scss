@@ -1,0 +1,276 @@
+/* VARIABLES */
+$primary-c : #29c2e1;
+$secondary-c : #f7941d;
+$dark-c : #23282f;
+$ash-c: #97999c;
+$light-bg-c: #e5eef0;
+$white-c: #fff;
+/* FOR XS DEVICE */
+@media (min-width: 320px) and (max-width: 575px){
+    header{
+    .header-top{
+        
+        .container{
+            padding: 0;
+            margin: 0;
+            .header-top-left{
+                text-align: center;
+            }
+            .header-top-right{
+                ul{
+                    li{
+                        float: left;
+                        a{
+                            
+                            i{
+                                padding-right: 5px;
+                                padding-left: 10px;
+                            }
+                        }
+                        &:nth-child(1){
+                            a{    
+                                
+                                padding-right: 20px;
+                                border-right: 0px solid #ddd;
+                            }
+                        }
+                        &:nth-child(2){
+                            a{
+                                padding-left: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    nav.navbar{
+        padding: 20px 0;
+        margin: 0;
+        
+        .container{
+            .navbar-brand{
+                padding: 0;
+                margin: 0;
+                padding-left: 15px;
+            }
+            .navbar-toggler{
+                color: #333;
+            }
+            .navbar-toggler:focus{
+                border: 0;
+                outline: 0;
+            }
+            .collapse{
+                padding: 10px 0;
+                margin: 10px 0 0 0;
+                border-top: 1px solid #ddd;
+                .navbar-nav{
+                    margin: 0;
+                    padding: 0;
+                    .nav-item{
+                        margin: 0;
+                        padding: 0;
+                        .nav-link{
+                            padding: 0 15px;
+                        }
+                        .nav-link-active{
+                            border-left: 2px solid $primary-c;
+                        }
+                        .nav-link.btn-primary-c{
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+    /* HEADER ENDS */
+    #banner{
+    .container-fluid{
+        #myBanner{
+            .banner-slide{
+                position: relative;
+                height: 100vh;
+                img{
+                    width: 100%;
+                }
+                .bnr-text{
+                    width: 100%;
+                    top: 50%;
+                    left: 50%;
+                    h1{    
+                        
+                        font-size: 2rem;
+                        padding: 0 0 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+    /* BANNER ENDS */
+    #startup{
+    padding: 80px 0 0;
+    .container{
+        .startup-text{
+            p.para-details{
+                padding-bottom: 60px;
+            }
+            .startup-img{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .startup-item-wrapper{
+            padding: 30px 0;
+            .startup-item{
+
+                .startup-item-img{
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+                .startup-item-text{
+                    a.btn-primary-c{
+                        margin-left: 0px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+    /* STARTUP ENDS */
+    #clients{
+        padding: 70px 0;
+    }
+    #features{
+    
+    .container{
+        padding: 70px 0;
+        h2.section-title,p.section-subtitle{
+            padding-left: 15px;
+        }
+        .features-item{
+            .features-item-img{
+                padding-right: 15px;
+                padding-left: 15px;
+                i{
+                }
+            }
+            .features-item-text{
+                h3{
+                    
+                }
+                p.para-details{
+                    
+                }
+            }
+        }
+        .btn-primary-c{
+            margin-bottom: 20px;
+        }
+        .shape{
+            z-index: -5;
+        }
+    }
+}
+/* FEATURES ENDS */
+
+/* PRICING STARTS */
+#pricing{
+    .container{
+        padding: 70px 0;
+        h2.section-title,p.section-subtitle{
+            padding-left: 15px;
+        }
+        .pricing-item{
+            margin-bottom: 20px;
+            h3{
+                
+            }
+            h4{
+                
+                span.price{
+                   
+                }
+            }
+            ul{
+                padding: 28px 0;
+                li{
+                    p{
+                        
+                    }
+                }
+            }
+            .recommend{
+                
+            }
+            
+        }
+        
+    }
+}
+/* PRICING ENDS */
+
+/* TEAM STARTS */
+#team{
+    
+    padding: 70px 0;
+    .container{
+        .team-item{
+            margin-bottom: 20px;
+            .team-item-img{
+                img{
+                    width: 100%;
+                }
+            }
+            h4{
+                
+            }
+            h5{
+                
+            }
+            ul{
+                
+                li{
+                    display: inline-block;
+                    a{
+                        i{
+                            
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+/* TEAM ENDS */
+
+/* FREE SERVICE STARTS */
+#freeService{
+    .container{
+        padding: 70px 0;
+        .free-service{
+            h2{
+                
+                span{
+                    color: $secondary-c;
+                }
+            }
+            p{
+                line-height: 24px;
+            }
+            .btn-primary-c{
+                margin-right: 0px;
+            }
+        }
+    }
+}
+/* FREE SERVICE ENDS */
+    
+    
+}
