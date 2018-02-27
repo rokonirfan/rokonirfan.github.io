@@ -1,0 +1,42 @@
+/* responsive behaviour for olivers one page templates */
+/* for extra small device */
+@media (min-width: 320px) and (max-width: 575px){
+    /* header starts */
+    header{
+        width: 100%;
+    }
+    header .header-social{
+        margin-left: 15px;
+    }
+    header .header-phone{
+        margin-right: 15px;
+    }
+    header .nav-fixed{
+        width: 76%;
+        background: rgba(255,255,255,0.8);
+    }
+    
+    /* header ends */
+    /*-----------------------------*/
+    /* banner starts */
+    #banner .bnr-text h1{
+        font-size: 3rem;
+    }
+    #banner .bnr-text p{
+        padding: 0 20px 5rem;
+    }
+    /* banner ends */
+    /*--------------------------------*/
+    /* about starts */
+    #about .section-title{
+        padding-left: 20px;
+    }
+    #about .about-text p{
+        padding: 0 20px 1.5rem;
+    }
+    #about .about-text span{
+        padding-right: 20px;
+        padding-bottom: 2rem;
+    }
+    /* about ends */
+}

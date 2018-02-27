@@ -1,0 +1,25 @@
+/* custom animation css */
+@keyframes top-to-down-slide{
+    0%{
+        position: relative;
+        top: -10%;
+        opacity: 0; 
+    }
+    100%{
+        position: relative;
+        top: 0;
+        opacity: 1.0;
+    }
+}
+@keyframes left-to-right-slide{
+    0%{
+        position: relative;
+        left: -20%;
+        opacity: 0; 
+    }
+    100%{
+        position: relative;
+        left: 0;
+        opacity: 1.0;
+    }
+}
